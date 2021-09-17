@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/99designs/aws-vault/v6 v6.3.1
-	github.com/aws/aws-sdk-go v1.40.34
+	github.com/aws/aws-sdk-go v1.40.45
 	github.com/aws/aws-sdk-go-v2/config v1.8.1
 	github.com/aws/aws-sdk-go-v2/service/iam v1.9.0
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.6.0
