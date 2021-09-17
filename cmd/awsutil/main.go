@@ -29,7 +29,7 @@ func main() {
 	rootCommand := &cobra.Command{
 		Use:                   fmt.Sprintf("%s [flags]", CLI_NAME),
 		DisableFlagsInUseLine: true,
-		Short:                 "clonewars-cli is a way to interact with clonewars data",
+		Short:                 "This is a set of utilities for managing AWS accounts",
 	}
 
 	bootstrapGovcloudCommand := &cobra.Command{
