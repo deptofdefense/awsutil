@@ -40,7 +40,7 @@ func main() {
 		SilenceUsage:          true,
 		RunE:                  bootstrapGovcloud,
 	}
-	initBootstrapGovcloudFlags(rootCommand.Flags())
+	initBootstrapGovcloudFlags(bootstrapGovcloudCommand.Flags())
 
 	versionCommand := &cobra.Command{
 		Use:                   `version`,
