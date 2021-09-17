@@ -21,8 +21,12 @@ ALIAS=$(aws iam list-account-aliases | jq -r .AccountAliases[0])
 aws iam update-login-profile --user-name "${USERNAME}" --password "${PASSWORD}"
 
 echo
-echo "Login URL: https://${ALIAS}.signin.aws.amazon.com/console"
-echo "Login URL: https://${ALIAS}.signin.amazonaws-us-gov.com/console"
+if [ "${AWS_REGION}" == "us-gov-east-1" ] ||  [ "${AWS_REGION}" == "us-gov-west-1" ]; then
+  echo "Login URL: https://${ALIAS}.signin.amazonaws-us-gov.com/console"
+else
+  echo "Login URL: https://${ALIAS}.signin.aws.amazon.com/console"
+fi
+
 echo "Username: ${USERNAME}"
 echo "Password: ${PASSWORD}"
 echo
