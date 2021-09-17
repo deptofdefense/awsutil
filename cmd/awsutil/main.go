@@ -42,6 +42,16 @@ func main() {
 	}
 	initBootstrapGovcloudFlags(bootstrapGovcloudCommand.Flags())
 
+	bootstrapUserCommand := &cobra.Command{
+		Use:                   `bootstrap-user`,
+		DisableFlagsInUseLine: true,
+		Short:                 "Bootstrap an IAM user",
+		SilenceErrors:         true,
+		SilenceUsage:          true,
+		RunE:                  bootstrapUser,
+	}
+	initBootstrapUserFlags(bootstrapUserCommand.Flags())
+
 	resetUserPasswordCommand := &cobra.Command{
 		Use:                   `reset-user-password`,
 		DisableFlagsInUseLine: true,
@@ -63,6 +73,7 @@ func main() {
 
 	rootCommand.AddCommand(
 		bootstrapGovcloudCommand,
+		bootstrapUserCommand,
 		resetUserPasswordCommand,
 		versionCommand,
 	)
