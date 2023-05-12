@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/99designs/aws-vault/v6 v6.3.1
-	github.com/aws/aws-sdk-go v1.40.45
+	github.com/aws/aws-sdk-go v1.44.262
 	github.com/aws/aws-sdk-go-v2/config v1.8.2
 	github.com/aws/aws-sdk-go-v2/service/iam v1.9.1
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.6.1
@@ -123,13 +123,13 @@ require (
 	github.com/xanzy/ssh-agent v0.3.1 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	gocloud.dev v0.24.0 // indirect
-	golang.org/x/crypto v0.0.0-20210915214749-c084706c2272 // indirect
-	golang.org/x/net v0.0.0-20210917221730-978cfadd31cf // indirect
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
+	golang.org/x/net v0.1.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20210917161153-d61c044b1678 // indirect
-	golang.org/x/term v0.0.0-20210916214954-140adaaadfaf // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
+	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/term v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/api v0.57.0 // indirect
