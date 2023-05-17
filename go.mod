@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go v1.40.45
 	github.com/aws/aws-sdk-go-v2/config v1.8.2
 	github.com/aws/aws-sdk-go-v2/service/iam v1.9.1
-	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.6.1
+	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.19.8
 	github.com/goreleaser/goreleaser v0.179.0
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
@@ -46,15 +46,17 @@ require (
 	github.com/acomagu/bufpipe v1.0.3 // indirect
 	github.com/apex/log v1.9.0 // indirect
 	github.com/atc0005/go-teams-notify/v2 v2.6.0 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.9.1 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.18.0 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.4.2 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.5.1 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.33 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.27 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.2.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.3.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kms v1.6.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.4.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.7.1 // indirect
-	github.com/aws/smithy-go v1.8.0 // indirect
+	github.com/aws/smithy-go v1.13.5 // indirect
 	github.com/blakesmith/ar v0.0.0-20190502131153-809d4375e1fb // indirect
 	github.com/caarlos0/ctrlc v1.0.0 // indirect
 	github.com/caarlos0/env/v6 v6.7.1 // indirect
@@ -77,7 +79,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/go-github/v35 v35.3.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/rpmpack v0.0.0-20210518075352-dc539ef4f2ea // indirect
